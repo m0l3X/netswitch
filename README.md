@@ -9,6 +9,7 @@ Netswitch allows to turn on/off your home network devices via simple syntax and 
 ## Requirements
 
 > Python >=3.10
+> 
 yep it is built on simple python tho..
 
 ## Usage
@@ -29,12 +30,16 @@ Don't forget to add/change firewall rule on 'endpoint' devices!
 
 <hr>
 On client (netswitch.py), run in terminal: 
+
 ### netswitch [network ip] [network password (if exists)] [command] [device keyword]
 
 Avaiable commands: 
 > status - Prints out endpoint device's status information, such as local IP and mac address and adds it to nettable.json
+
 > shut - Turns off endpoint device
+
 > wake - Turns on endpoint device, if it was previously status'ed
+
 > wakemac - Turns on device on network with specified MAC address
 
 <hr>
